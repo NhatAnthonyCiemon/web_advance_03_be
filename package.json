@@ -1,7 +1,7 @@
 {
     "type": "module",
     "scripts": {
-        "build": "npx prisma generate",
+        "build": "prisma generate",
         "start": "node app.js",
         "install-and-generate": "npm install && npx prisma generate",
         "dev": "nodemon app.js"
