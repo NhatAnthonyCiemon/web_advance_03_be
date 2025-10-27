@@ -1,8 +1,8 @@
 import express from "express";
-import route from "./routers/index.js";
+import route from "./src/routers/index.js";
 import dotenv from "dotenv";
 import cors from "cors";
-import passport from "./config/passport.js";
+import passport from "./src/config/passport.js";
 
 dotenv.config();
 
