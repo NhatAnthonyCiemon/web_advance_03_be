@@ -14,9 +14,9 @@ app.use(express.urlencoded({ extended: true }));
 
 route(app);
 
-// Middleware handle errors
-// app.listen(process.env.PORT, () => {
-//     console.log(`🚀 Server running at http://localhost:${process.env.PORT}`);
-// });
+//Middleware handle errors
+app.listen(process.env.PORT, () => {
+    console.log(`🚀 Server running at http://localhost:${process.env.PORT}`);
+});
 
 export default app;

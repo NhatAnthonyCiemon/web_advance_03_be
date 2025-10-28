@@ -1,10 +1,11 @@
 {
     "type": "module",
     "scripts": {
-        "build": "prisma generate",
-        "start": "node app.js",
+        "build": "npx prisma generate",
+        "start": "npx prisma generate && node app.js",
         "install-and-generate": "npm install && npx prisma generate",
-        "dev": "nodemon app.js"
+        "dev": "nodemon app.js",
+        "postinstall": "prisma generate"
     },
     "dependencies": {
         "@prisma/client": "^6.6.0",
